@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/project/pi-io/Pi-I2C-24C04/src/i2c_24c04.c
+stdio.h
+-
+string.h
+-
+wiringPi.h
+-
+wiringPiI2C.h
+-
+
